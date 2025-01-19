@@ -7,7 +7,7 @@ from keyboards import *
 from crud_functions import *
 import asyncio
 
-api = "7976682198:AAEk7eg7CfHsoxPQxrUbNuJIzTwjtYF1grg"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
